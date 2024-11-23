@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Лабораторная работа 5</title>
+        <link rel="stylesheet" href="table.css"/>
+    </head>
+    <body>
+        <div class="header">
+            <a class="header-link" href="index.html">Основная страница</a>
+            <a class="header-link" href="page2.html">Позиционирование элементов</a>
+            <a class="header-link" href="table.html">Таблица</a>
+        </div>
+        <table>
+            <caption>Список студентов</caption>
+            <tr>
+                <th>id</th>
+                <th>ФИО</th>
+                <th>Номер группы</th>
+                <th>Пол</th>
+                <th>Возраст</th>
+                <th>Название направления</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Иванов Иван Иванович</td>
+                <td>6102-090301D</td>
+                <td>М</td>
+                <td>18</td>
+                <td>Информатика и Вычислительная Техника</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Смирнова Мария Петровна</td>
+                <td>6204-090301D</td>
+                <td>Ж</td>
+                <td>19</td>
+                <td>Информатика и Вычислительная Техника</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Захаров Илья Владимирович</td>
+                <td>6103-010301D</td>
+                <td>М</td>
+                <td>18</td>
+                <td>Прикладная Математика и Информатика</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Гаврилов Фёдор Иванович</td>
+                <td>6104-010301D</td>
+                <td>М</td>
+                <td>18</td>
+                <td>Прикладная Математика и Информатика</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Кузнецова Дарья Леонидовна</td>
+                <td>6201-010301D</td>
+                <td>Ж</td>
+                <td>19</td>
+                <td>Прикладная Математика и Информатика</td>
+            </tr>
+        </table>
+        <form>
+            <h3>Заполните для добавления элемента в таблицу</h3>
+            <label for="identification">Введите ваш id:</label>
+            <br>
+            <input type="text" id="identification" name="id">
+            <br><br>
+            <label for="full-name">Введите ФИО:</label>
+            <br>
+            <input type="text" id="full-name" name="fullName">
+            <br><br>
+            <label for="group">Введите номер группы:</label>
+            <br>
+            <input type="text" id="group" name="groupNumber">
+            <br>
+            <p>Выберите ваш пол:</p>
+            <input type="radio" id="male" name="sex" value="m" checked>
+            <label for="male">М</label>
+            <br>
+            <input type="radio" id="female" name="sex" value="f">
+            <label for="female">Ж</label>
+            <br><br>
+            <label for="age">Введите ваш возраст:</label>
+            <input type="number" id="age" name="age" min="1" max="150" step="1">
+            <br><br>
+            <label for="track">Введите название направления:</label>
+            <br>
+            <input type="text" id="track" name="trackName">
+            <br><br>
+            <input type="submit" value="Добавить">
+        </form>
+    </body>
+</html>

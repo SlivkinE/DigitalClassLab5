@@ -1,0 +1,135 @@
+body {
+    background: beige;
+}
+h1 {
+    font-size: 50px;
+    color: blueviolet;
+    margin: 10px;
+    padding: 5px;
+}
+h2 {
+    font-size: 25px;
+    color:purple;
+    margin: 10px;
+    padding: 5px;
+}
+p {
+    margin: 0;
+    font-size: 20px;
+    padding: 5px;
+    border-style: dotted;
+    border-width: 3px;
+}
+a {
+    color: blue;
+}
+li {
+    color: rgb(103, 103, 255);
+    padding: 2px;
+}
+.content {
+    display: flex;
+    margin: 3%;
+}
+.content-left {
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+    width: 65%;
+    padding: 18px;
+    background: rgb(199, 199, 199);
+    border-radius: 32px;
+}
+.content-right {
+    margin: 2%;
+    padding: 20px;
+    background: rgb(199, 199, 199);
+    border-radius: 32px;
+}
+.photo {
+    height: 500px;
+    width: auto;
+}
+.header {
+    background: black;
+    color: white;
+    text-align: right;
+    padding: 5px;
+    font-size: 20px;
+    border-style: dotted;
+    border-width: 3px;
+}
+.header-link {
+    color: white;
+}
+.container {
+    background: lightgrey;
+    display: flex;
+    padding: 10px;
+}
+.block {
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-2 {
+    background: lightgrey;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    height: 400px;
+}
+.block-2 {
+    width: 200px;
+    height: 200px;
+    background: green;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: lightsteelblue;
+    border: 5px solid black;
+    padding: 10px;
+}
+.block-3 {
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    background: yellowgreen;
+}
+.container-4 {
+    border: 5px solid black;
+    width: 500px;
+    height: 500px;
+}
+.block-4 {
+    width: 100px;
+    height: 100px;
+    border: 3px solid;
+}
+.block-4-1 {
+    border-color: red;
+    position: relative;
+    left: 100px;
+    top: 150px;
+}
+.block-4-2 {
+    border-color: blue;
+    position: relative;
+    left: 160px;
+    top: 100px;
+}
+.block-4-3 {
+    border-color: green;
+    position: relative;
+    left: 220px;
+    top: 50px;
+}
+.block-5 {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
